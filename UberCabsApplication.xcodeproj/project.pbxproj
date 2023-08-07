@@ -13,9 +13,30 @@
 		A6F67FE22A80F7620063722E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F67FE02A80F7620063722E /* Main.storyboard */; };
 		A6F67FE42A80F7630063722E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F67FE32A80F7630063722E /* Assets.xcassets */; };
 		A6F67FE72A80F7630063722E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F67FE52A80F7630063722E /* LaunchScreen.storyboard */; };
+		A6F67FFE2A80F8B60063722E /* EmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FEF2A80F8AE0063722E /* EmailPage.swift */; };
+		A6F67FFF2A80F8B60063722E /* CreditCardpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF12A80F8AF0063722E /* CreditCardpage.swift */; };
+		A6F680002A80F8B60063722E /* SelectPayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF22A80F8AF0063722E /* SelectPayMode.swift */; };
+		A6F680012A80F8B60063722E /* ContinuePasscodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF32A80F8AF0063722E /* ContinuePasscodePage.swift */; };
+		A6F680022A80F8B60063722E /* ContinueWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF42A80F8AF0063722E /* ContinueWithApple.swift */; };
+		A6F680032A80F8B60063722E /* ContinueWithFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF62A80F8B10063722E /* ContinueWithFacebook.swift */; };
+		A6F680042A80F8B60063722E /* EditAccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF72A80F8B10063722E /* EditAccessPage.swift */; };
+		A6F680052A80F8B60063722E /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FF82A80F8B30063722E /* LogInPage.swift */; };
+		A6F680062A80F8B60063722E /* accountCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FFA2A80F8B50063722E /* accountCollectionView.swift */; };
+		A6F680072A80F8B60063722E /* GooglePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FFB2A80F8B50063722E /* GooglePage.swift */; };
+		A6F680082A80F8B60063722E /* InformationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FFD2A80F8B60063722E /* InformationPage.swift */; };
+		A6F680142A80F8C40063722E /* ServicesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800A2A80F8C00063722E /* ServicesPage.swift */; };
+		A6F680152A80F8C40063722E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800D2A80F8C10063722E /* CollectionViewCell.swift */; };
+		A6F680162A80F8C40063722E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800E2A80F8C10063722E /* HomePage.swift */; };
+		A6F680172A80F8C40063722E /* IntercityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800F2A80F8C10063722E /* IntercityPage.swift */; };
+		A6F680182A80F8C40063722E /* RidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F680102A80F8C10063722E /* RidePage.swift */; };
+		A6F680192A80F8C40063722E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F680112A80F8C20063722E /* TabBar.swift */; };
+		A6F6801A2A80F8C40063722E /* ActivityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F680132A80F8C40063722E /* ActivityPage.swift */; };
+		F66305932915E7B5320C118C /* Pods_UberCabsApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B3F700996400D5DB3FC955 /* Pods_UberCabsApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07B3F700996400D5DB3FC955 /* Pods_UberCabsApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberCabsApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36885FA9FE96B2685BFFBAF9 /* Pods-UberCabsApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCabsApplication.release.xcconfig"; path = "Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication.release.xcconfig"; sourceTree = "<group>"; };
 		A6F67FD72A80F7620063722E /* UberCabsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberCabsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F67FDA2A80F7620063722E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F67FDC2A80F7620063722E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,25 @@
 		A6F67FE32A80F7630063722E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F67FE62A80F7630063722E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F67FE82A80F7630063722E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F67FEF2A80F8AE0063722E /* EmailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailPage.swift; sourceTree = "<group>"; };
+		A6F67FF12A80F8AF0063722E /* CreditCardpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardpage.swift; sourceTree = "<group>"; };
+		A6F67FF22A80F8AF0063722E /* SelectPayMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPayMode.swift; sourceTree = "<group>"; };
+		A6F67FF32A80F8AF0063722E /* ContinuePasscodePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinuePasscodePage.swift; sourceTree = "<group>"; };
+		A6F67FF42A80F8AF0063722E /* ContinueWithApple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinueWithApple.swift; sourceTree = "<group>"; };
+		A6F67FF62A80F8B10063722E /* ContinueWithFacebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinueWithFacebook.swift; sourceTree = "<group>"; };
+		A6F67FF72A80F8B10063722E /* EditAccessPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAccessPage.swift; sourceTree = "<group>"; };
+		A6F67FF82A80F8B30063722E /* LogInPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		A6F67FFA2A80F8B50063722E /* accountCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accountCollectionView.swift; sourceTree = "<group>"; };
+		A6F67FFB2A80F8B50063722E /* GooglePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePage.swift; sourceTree = "<group>"; };
+		A6F67FFD2A80F8B60063722E /* InformationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationPage.swift; sourceTree = "<group>"; };
+		A6F6800A2A80F8C00063722E /* ServicesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesPage.swift; sourceTree = "<group>"; };
+		A6F6800D2A80F8C10063722E /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A6F6800E2A80F8C10063722E /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		A6F6800F2A80F8C10063722E /* IntercityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntercityPage.swift; sourceTree = "<group>"; };
+		A6F680102A80F8C10063722E /* RidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidePage.swift; sourceTree = "<group>"; };
+		A6F680112A80F8C20063722E /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A6F680132A80F8C40063722E /* ActivityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityPage.swift; sourceTree = "<group>"; };
+		F94BDA3FDD12F6C9FCE2F5F5 /* Pods-UberCabsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCabsApplication.debug.xcconfig"; path = "Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66305932915E7B5320C118C /* Pods_UberCabsApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8341D15F2FACA8AB74CA1EFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B3F700996400D5DB3FC955 /* Pods_UberCabsApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93ED2A7C6BE1E8ACE4D7127D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F94BDA3FDD12F6C9FCE2F5F5 /* Pods-UberCabsApplication.debug.xcconfig */,
+				36885FA9FE96B2685BFFBAF9 /* Pods-UberCabsApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A6F67FCE2A80F7620063722E = {
 			isa = PBXGroup;
 			children = (
 				A6F67FD92A80F7620063722E /* UberCabsApplication */,
 				A6F67FD82A80F7620063722E /* Products */,
+				93ED2A7C6BE1E8ACE4D7127D /* Pods */,
+				8341D15F2FACA8AB74CA1EFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +119,102 @@
 				A6F67FDA2A80F7620063722E /* AppDelegate.swift */,
 				A6F67FDC2A80F7620063722E /* SceneDelegate.swift */,
 				A6F67FDE2A80F7620063722E /* ViewController.swift */,
+				A6F67FF02A80F8AF0063722E /* ContinueApple */,
+				A6F67FEE2A80F8AE0063722E /* ContinueEmail */,
+				A6F67FF52A80F8B10063722E /* ContinueFacebook */,
+				A6F67FF92A80F8B50063722E /* ContinueGoogle */,
+				A6F67FFC2A80F8B60063722E /* ContinueMobile */,
+				A6F67FF82A80F8B30063722E /* LogInPage.swift */,
 				A6F67FE02A80F7620063722E /* Main.storyboard */,
 				A6F67FE32A80F7630063722E /* Assets.xcassets */,
 				A6F67FE52A80F7630063722E /* LaunchScreen.storyboard */,
 				A6F67FE82A80F7630063722E /* Info.plist */,
 			);
 			path = UberCabsApplication;
+			sourceTree = "<group>";
+		};
+		A6F67FEE2A80F8AE0063722E /* ContinueEmail */ = {
+			isa = PBXGroup;
+			children = (
+				A6F67FEF2A80F8AE0063722E /* EmailPage.swift */,
+			);
+			path = ContinueEmail;
+			sourceTree = "<group>";
+		};
+		A6F67FF02A80F8AF0063722E /* ContinueApple */ = {
+			isa = PBXGroup;
+			children = (
+				A6F67FF12A80F8AF0063722E /* CreditCardpage.swift */,
+				A6F67FF22A80F8AF0063722E /* SelectPayMode.swift */,
+				A6F67FF32A80F8AF0063722E /* ContinuePasscodePage.swift */,
+				A6F67FF42A80F8AF0063722E /* ContinueWithApple.swift */,
+			);
+			path = ContinueApple;
+			sourceTree = "<group>";
+		};
+		A6F67FF52A80F8B10063722E /* ContinueFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				A6F67FF62A80F8B10063722E /* ContinueWithFacebook.swift */,
+				A6F67FF72A80F8B10063722E /* EditAccessPage.swift */,
+			);
+			path = ContinueFacebook;
+			sourceTree = "<group>";
+		};
+		A6F67FF92A80F8B50063722E /* ContinueGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				A6F67FFA2A80F8B50063722E /* accountCollectionView.swift */,
+				A6F67FFB2A80F8B50063722E /* GooglePage.swift */,
+			);
+			path = ContinueGoogle;
+			sourceTree = "<group>";
+		};
+		A6F67FFC2A80F8B60063722E /* ContinueMobile */ = {
+			isa = PBXGroup;
+			children = (
+				A6F680122A80F8C40063722E /* ActivityPage */,
+				A6F6800B2A80F8C10063722E /* HomePage */,
+				A6F680092A80F8C00063722E /* ServicePage */,
+				A6F680112A80F8C20063722E /* TabBar.swift */,
+				A6F67FFD2A80F8B60063722E /* InformationPage.swift */,
+			);
+			path = ContinueMobile;
+			sourceTree = "<group>";
+		};
+		A6F680092A80F8C00063722E /* ServicePage */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6800A2A80F8C00063722E /* ServicesPage.swift */,
+			);
+			path = ServicePage;
+			sourceTree = "<group>";
+		};
+		A6F6800B2A80F8C10063722E /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6800C2A80F8C10063722E /* HomePage */,
+				A6F6800F2A80F8C10063722E /* IntercityPage.swift */,
+				A6F680102A80F8C10063722E /* RidePage.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A6F6800C2A80F8C10063722E /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6800D2A80F8C10063722E /* CollectionViewCell.swift */,
+				A6F6800E2A80F8C10063722E /* HomePage.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A6F680122A80F8C40063722E /* ActivityPage */ = {
+			isa = PBXGroup;
+			children = (
+				A6F680132A80F8C40063722E /* ActivityPage.swift */,
+			);
+			path = ActivityPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6F67FEB2A80F7630063722E /* Build configuration list for PBXNativeTarget "UberCabsApplication" */;
 			buildPhases = (
+				17994F17D51214908CF4ACD3 /* [CP] Check Pods Manifest.lock */,
 				A6F67FD32A80F7620063722E /* Sources */,
 				A6F67FD42A80F7620063722E /* Frameworks */,
 				A6F67FD52A80F7620063722E /* Resources */,
+				EEC1DB8897662082E9D35075 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +285,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17994F17D51214908CF4ACD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberCabsApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC1DB8897662082E9D35075 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6F67FD32A80F7620063722E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +334,25 @@
 			files = (
 				A6F67FDF2A80F7620063722E /* ViewController.swift in Sources */,
 				A6F67FDB2A80F7620063722E /* AppDelegate.swift in Sources */,
+				A6F6801A2A80F8C40063722E /* ActivityPage.swift in Sources */,
 				A6F67FDD2A80F7620063722E /* SceneDelegate.swift in Sources */,
+				A6F680032A80F8B60063722E /* ContinueWithFacebook.swift in Sources */,
+				A6F680162A80F8C40063722E /* HomePage.swift in Sources */,
+				A6F680012A80F8B60063722E /* ContinuePasscodePage.swift in Sources */,
+				A6F680052A80F8B60063722E /* LogInPage.swift in Sources */,
+				A6F680062A80F8B60063722E /* accountCollectionView.swift in Sources */,
+				A6F680002A80F8B60063722E /* SelectPayMode.swift in Sources */,
+				A6F680182A80F8C40063722E /* RidePage.swift in Sources */,
+				A6F680042A80F8B60063722E /* EditAccessPage.swift in Sources */,
+				A6F680072A80F8B60063722E /* GooglePage.swift in Sources */,
+				A6F680152A80F8C40063722E /* CollectionViewCell.swift in Sources */,
+				A6F680022A80F8B60063722E /* ContinueWithApple.swift in Sources */,
+				A6F680082A80F8B60063722E /* InformationPage.swift in Sources */,
+				A6F680172A80F8C40063722E /* IntercityPage.swift in Sources */,
+				A6F67FFF2A80F8B60063722E /* CreditCardpage.swift in Sources */,
+				A6F67FFE2A80F8B60063722E /* EmailPage.swift in Sources */,
+				A6F680142A80F8C40063722E /* ServicesPage.swift in Sources */,
+				A6F680192A80F8C40063722E /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +494,7 @@
 		};
 		A6F67FEC2A80F7630063722E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94BDA3FDD12F6C9FCE2F5F5 /* Pods-UberCabsApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +523,7 @@
 		};
 		A6F67FED2A80F7630063722E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36885FA9FE96B2685BFFBAF9 /* Pods-UberCabsApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

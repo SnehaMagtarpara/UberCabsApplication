@@ -11,9 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
 
-
+    @IBAction func getStartButtonAction(_ sender: Any) {
+        let navigation = storyboard?.instantiateViewController(identifier: "LogInPage") as! LogInPage
+        navigationController?.pushViewController(navigation, animated: true)
+    }
+    
 }
 
