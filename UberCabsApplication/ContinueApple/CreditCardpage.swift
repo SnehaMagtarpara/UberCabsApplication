@@ -19,7 +19,7 @@ class CreditCardpage: UIViewController {
     @IBOutlet weak var datePickerView: UIDatePicker!
     @IBOutlet weak var cardNumberTextField: UITextField!
     @IBOutlet weak var cvvNumberTextField: UITextField!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         cardNumberTextField.layer.borderColor = UIColor.black.cgColor
@@ -33,19 +33,41 @@ class CreditCardpage: UIViewController {
     }
     
     @IBAction func buttonAction(_ sender: Any) {
-        if cvvNumberTextField.text?.count ?? 0 != 10
+        if cardNumberTextField.text?.count ?? 0 != 12
         {
+            showAlert()
+        }
+        else if cvvNumberTextField.text?.count ?? 0 != 3
+        {
+            showAlertCvv()
+        }
+        else{
             addData()
             let navigation = storyboard?.instantiateViewController(withIdentifier:"TabBar") as! TabBar
             navigationController?.pushViewController(navigation, animated: true)
         }
-        else{
-            
-        }
     }
+    
+    //MARK = FireBase...
     func addData()
     {
         reference.collection("User").addDocument(data: ["Card Number":cardNumberTextField.text!,"Cvv":cvvNumberTextField.text!])
+    }
+    
+    //MARK =  Show Alert Message...
+    func showAlert()
+    {
+        let alert = UIAlertController(title: "Enter Card Number  ", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
+        
+    }
+    func showAlertCvv()
+    {
+        let alert = UIAlertController(title: "Enter Cvv Number  ", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
+        
     }
 }
 extension CreditCardpage: UIPickerViewDelegate,UIPickerViewDataSource

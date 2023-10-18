@@ -13,14 +13,12 @@ class IntercityPage: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getStartButton.layer.cornerRadius = 20
+        tabBarItem.isEnabled = true
     }
    
     @IBAction func getStartedButtonAction(_ sender: UIButton) {
-        let navigation = storyboard?.instantiateViewController(identifier:"RidePage") as! RidePage
+        let navigation = storyboard?.instantiateViewController(identifier:"ViewController3") as! ViewController3
         navigationController?.pushViewController(navigation, animated: true)
     }
-    
-    @IBAction func backButtonAction(_ sender: UIButton) {
-        navigationController?.popViewController(animated: true)
-    }
+     
 }

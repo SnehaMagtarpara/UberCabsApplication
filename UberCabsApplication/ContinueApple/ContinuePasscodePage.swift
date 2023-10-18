@@ -11,6 +11,13 @@ import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
 
+class MyLibrary {
+    static var share = MyLibrary()
+    var firstName : String?
+    var lastName : String?
+    var number : String?
+}
+
 class ContinuePasscodePage: UIViewController {
 
     var ref: DatabaseReference!
@@ -46,9 +53,29 @@ class ContinuePasscodePage: UIViewController {
     }
     
     @IBAction func nextButtonAction(_ sender: UIButton) {
-        let navigation = storyboard?.instantiateViewController(withIdentifier:"SelectPayMode") as! SelectPayMode
-        navigationController?.pushViewController(navigation, animated: true)
-        addData()
+        if firstNametextField.text == ""
+        {
+            showAlertFirstName()
+        }
+        else if lastNametextField.text == ""
+        {
+            showAlertlastName()
+        }
+        else if mobileNumbertextField.text?.count ?? 0 != 10
+        {
+            showAlertNumber()
+        }
+        else
+        {
+            let navigation = storyboard?.instantiateViewController(withIdentifier:"SelectPayMode") as! SelectPayMode
+            MyLibrary.share.firstName = firstNametextField.text
+            MyLibrary.share.lastName = lastNametextField.text
+            MyLibrary.share.number = mobileNumbertextField.text
+            navigationController?.pushViewController(navigation, animated: true)
+            addData()
+            
+        }
+        
     }
     func setButton()
     {
@@ -58,6 +85,26 @@ class ContinuePasscodePage: UIViewController {
     func addData()
     {
         reference.collection("User").addDocument(data: ["First Name":firstNametextField.text!,"Last Name":lastNametextField.text!,"Number":mobileNumbertextField.text!])
+    }
+    func showAlertFirstName()
+    {
+        let alert = UIAlertController(title: "Enter Your First name", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
+        
+    }
+    func showAlertlastName()
+    {
+        let alert = UIAlertController(title: "Enter Your last name", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
+        
+    }
+    func showAlertNumber()
+    {
+        let alert = UIAlertController(title: "Enter Your number", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
         
     }
 }

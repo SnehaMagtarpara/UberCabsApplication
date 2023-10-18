@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zxi-ta-JRv">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -37,7 +37,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="getStartButtonAction:" destination="8Fl-J6-tkY" eventType="touchUpInside" id="GMK-Ck-WaV"/>
+                                    <action selector="getStartedbuttonAction:" destination="8Fl-J6-tkY" eventType="touchUpInside" id="dPk-Ad-tXM"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="X0P-Ze-gRW">
@@ -87,12 +87,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6C7-WO-hiz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052.6717557251909" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="1979.3893129770991" y="-34.507042253521128"/>
         </scene>
         <!--Log In Page-->
         <scene sceneID="L7T-aG-01J">
             <objects>
-                <viewController storyboardIdentifier="LogInPage" id="Dg4-XZ-Ape" customClass="LogInPage" customModule="UberCabesProject" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogInPage" id="Dg4-XZ-Ape" customClass="LogInPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qzU-69-HkV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +126,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="continueNumberButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="XDJ-G6-VI7"/>
+                                    <action selector="continueWithNumberButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="RaT-C7-uTu"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9tq-Vu-os8">
@@ -166,7 +166,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="continueAppleButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="bjo-n2-b6k"/>
+                                    <action selector="continueWithAppleButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="pKz-gG-p5y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgH-JV-j2Y">
@@ -181,7 +181,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="continueWithfacebookButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="nF8-HZ-KwI"/>
+                                    <action selector="continueWithFacebookButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="TpZ-5q-Y1X"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yC6-Vc-qzL">
@@ -196,7 +196,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="continueWithGoogleButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="2Um-tw-akf"/>
+                                    <action selector="continueWithGoogleButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="udH-fk-Vk6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kr4-P7-80h">
@@ -211,7 +211,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="continueWithEmailButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="0Il-rG-NY8"/>
+                                    <action selector="continueWithEmailButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="64l-G1-DPT"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple-logo" translatesAutoresizingMaskIntoConstraints="NO" id="VAX-Z6-2h9">
@@ -267,16 +267,6 @@
                                     <constraint firstAttribute="height" constant="2" id="llR-0j-yjv"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxT-98-aYd">
-                                <rect key="frame" x="16" y="574" width="361" height="71"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="P8e-w6-2vP"/>
-                                </constraints>
-                                <string key="text">By processing, you consent to get calls, WhatsApp or SMS messages, Including by automated means, from Uber and its affiliates to the number provided.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9e-fh-wUC">
                                 <rect key="frame" x="29" y="699" width="60" height="57"/>
                                 <color key="backgroundColor" red="0.83822232480000003" green="0.83822232480000003" blue="0.83822232480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -289,9 +279,19 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="backButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="7Io-mh-gMb"/>
+                                    <action selector="backButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="jQu-RW-LWl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxT-98-aYd">
+                                <rect key="frame" x="16" y="578" width="361" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="P8e-w6-2vP"/>
+                                </constraints>
+                                <string key="text">By processing, you consent to get calls, WhatsApp or SMS messages, Including by automated means, from Uber and its affiliates to the number provided.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AH5-gv-94f"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -348,23 +348,23 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backButton" destination="L9e-fh-wUC" id="cU4-P6-2Od"/>
-                        <outlet property="continueButton" destination="kwB-8C-cQX" id="gkA-q2-CHb"/>
-                        <outlet property="continueWithApple" destination="A2P-yy-whr" id="dEY-mz-vyc"/>
-                        <outlet property="continueWithEmail" destination="Kr4-P7-80h" id="NMe-Gl-r7s"/>
-                        <outlet property="continueWithFacebook" destination="hgH-JV-j2Y" id="ltK-vT-pe8"/>
-                        <outlet property="continueWithGoogle" destination="yC6-Vc-qzL" id="oOM-DQ-TtL"/>
-                        <outlet property="numberTextField" destination="Zxr-sd-gw3" id="kUr-kL-yRU"/>
+                        <outlet property="ContinueWithFacebookButton" destination="hgH-JV-j2Y" id="Iwh-OT-VnS"/>
+                        <outlet property="backButtonAction" destination="L9e-fh-wUC" id="GLl-q5-ijQ"/>
+                        <outlet property="continueWithAppleButton" destination="A2P-yy-whr" id="7km-Sh-GKU"/>
+                        <outlet property="continueWithEmailButton" destination="Kr4-P7-80h" id="eX5-qd-4Qm"/>
+                        <outlet property="continueWithGoogleButton" destination="yC6-Vc-qzL" id="pKm-Dh-Sc2"/>
+                        <outlet property="continueWithNumberButton" destination="kwB-8C-cQX" id="gpZ-Dl-jeE"/>
+                        <outlet property="numberTextField" destination="Zxr-sd-gw3" id="8eJ-OV-7y6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2av-1S-DMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700" y="-35.211267605633807"/>
+            <point key="canvasLocation" x="2616" y="-35"/>
         </scene>
         <!--Email Page-->
         <scene sceneID="O37-lc-Ijb">
             <objects>
-                <viewController storyboardIdentifier="EmailPage" id="dPg-ep-NPz" customClass="EmailPage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EmailPage" id="dPg-ep-NPz" customClass="EmailPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LSG-e2-Ngp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -405,7 +405,7 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nextButtonAction:" destination="dPg-ep-NPz" eventType="touchUpInside" id="gQz-IR-Vhe"/>
+                                    <action selector="nextButtonAction:" destination="dPg-ep-NPz" eventType="touchUpInside" id="fmD-1o-OiX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxx-iT-9fV">
@@ -457,12 +457,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YGr-g8-IJL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381" y="1240"/>
+            <point key="canvasLocation" x="3308" y="1225"/>
         </scene>
         <!--Information Page-->
         <scene sceneID="KIe-fU-HpB">
             <objects>
-                <viewController storyboardIdentifier="InformationPage" id="7hP-AX-ccO" customClass="InformationPage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InformationPage" id="7hP-AX-ccO" customClass="InformationPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oim-CM-iAS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -533,7 +533,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="backButtonAction:" destination="7hP-AX-ccO" eventType="touchUpInside" id="CWP-7c-bc2"/>
-                                    <action selector="backButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="fF3-a2-bzq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LJ-BR-sQO">
@@ -546,7 +545,6 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nextButtonAction:" destination="dPg-ep-NPz" eventType="touchUpInside" id="R6L-Lh-oT9"/>
                                     <action selector="nextButtonAction:" destination="7hP-AX-ccO" eventType="touchUpInside" id="Rc5-vt-SaP"/>
                                 </connections>
                             </button>
@@ -586,7 +584,7 @@
         <!--Continue With Apple-->
         <scene sceneID="u9b-Vy-OdX">
             <objects>
-                <viewController storyboardIdentifier="ContinueWithApple" id="YOa-t5-qOp" customClass="ContinueWithApple" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContinueWithApple" id="YOa-t5-qOp" customClass="ContinueWithApple" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MXH-LX-3d6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -716,7 +714,7 @@
         <!--Continue Passcode Page-->
         <scene sceneID="4Zi-NH-j3F">
             <objects>
-                <viewController storyboardIdentifier="ContinuePasscodePage" id="q35-Gu-ACs" customClass="ContinuePasscodePage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContinuePasscodePage" id="q35-Gu-ACs" customClass="ContinuePasscodePage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sPZ-UT-kVY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -730,33 +728,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jUq-8z-Jmk">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="firstname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jUq-8z-Jmk">
                                 <rect key="frame" x="16" y="134" width="174" height="40"/>
                                 <color key="backgroundColor" red="0.92158359290000003" green="0.92158359290000003" blue="0.92158359290000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="174" id="R9k-LF-icT"/>
                                     <constraint firstAttribute="height" constant="40" id="xzX-AA-6QY"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUB-3D-6WF">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="lastname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUB-3D-6WF">
                                 <rect key="frame" x="203" y="134" width="174" height="40"/>
                                 <color key="backgroundColor" red="0.92158359290000003" green="0.92158359290000003" blue="0.92158359290000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="174" id="bOV-dY-vnC"/>
                                     <constraint firstAttribute="height" constant="40" id="gYh-jA-93C"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" textContentType="name"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="map-ph-5DF">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mobilenumber" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="map-ph-5DF">
                                 <rect key="frame" x="16" y="194" width="361" height="40"/>
                                 <color key="backgroundColor" red="0.92158359290000003" green="0.92158359290000003" blue="0.92158359290000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="AfX-HJ-0fG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMd-rd-43f">
@@ -771,7 +769,6 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="backButtonAction:" destination="Dg4-XZ-Ape" eventType="touchUpInside" id="8Zd-y5-Eyo"/>
                                     <action selector="backButtonAction:" destination="q35-Gu-ACs" eventType="touchUpInside" id="ihd-VS-wMK"/>
                                     <action selector="backButtonAction:" destination="7hP-AX-ccO" eventType="touchUpInside" id="qTT-LN-TDQ"/>
                                 </connections>
@@ -785,13 +782,12 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Next">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
-                                    <color key="baseForegroundColor" red="0.83822232480000003" green="0.83822232480000003" blue="0.83822232480000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseForegroundColor" red="0.83921568627450982" green="0.83921568627450982" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextButtonAction:" destination="q35-Gu-ACs" eventType="touchUpInside" id="0bX-EN-RxQ"/>
                                     <action selector="nextButtonAction:" destination="7hP-AX-ccO" eventType="touchUpInside" id="f4b-rU-uQ5"/>
-                                    <action selector="nextButtonAction:" destination="dPg-ep-NPz" eventType="touchUpInside" id="jFD-bj-Yo7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -829,7 +825,7 @@
         <!--Select Pay Mode-->
         <scene sceneID="6Rh-vD-n3P">
             <objects>
-                <viewController storyboardIdentifier="SelectPayMode" id="D67-7h-qx4" customClass="SelectPayMode" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectPayMode" id="D67-7h-qx4" customClass="SelectPayMode" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CG4-0O-tmI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -904,7 +900,7 @@
         <!--Credit Cardpage-->
         <scene sceneID="8r5-4m-2YV">
             <objects>
-                <viewController storyboardIdentifier="CreditCardpage" id="g7x-fo-FXU" customClass="CreditCardpage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreditCardpage" id="g7x-fo-FXU" customClass="CreditCardpage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IeE-YW-1xj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -996,7 +992,6 @@
                                 <connections>
                                     <action selector="buttonAction:" destination="g7x-fo-FXU" eventType="touchUpInside" id="thW-By-ZqF"/>
                                     <action selector="nextButtonAction:" destination="q35-Gu-ACs" eventType="touchUpInside" id="LgV-u0-D6E"/>
-                                    <action selector="nextButtonAction:" destination="dPg-ep-NPz" eventType="touchUpInside" id="fiP-HX-8uc"/>
                                     <action selector="nextButtonAction:" destination="7hP-AX-ccO" eventType="touchUpInside" id="gvW-Xa-6jb"/>
                                 </connections>
                             </button>
@@ -1038,28 +1033,10 @@
             </objects>
             <point key="canvasLocation" x="4295" y="-733"/>
         </scene>
-        <!--Navigation-->
-        <scene sceneID="nI3-Y6-mUM">
-            <objects>
-                <navigationController storyboardIdentifier="Navigation" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="URI-Qn-C1s" customClass="Navigation" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nah-RS-9Jt">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="8Fl-J6-tkY" kind="relationship" relationship="rootViewController" id="Tji-VV-Aq6"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="q8x-gZ-XF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
-        </scene>
         <!--Continue With Facebook-->
         <scene sceneID="4Fo-Xt-GaZ">
             <objects>
-                <viewController storyboardIdentifier="ContinueWithFacebook" id="9nS-hB-fqq" customClass="ContinueWithFacebook" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContinueWithFacebook" id="9nS-hB-fqq" customClass="ContinueWithFacebook" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3io-j1-MeZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1202,12 +1179,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YR0-vg-XfO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381" y="-82"/>
+            <point key="canvasLocation" x="3307.6335877862593" y="-82.394366197183103"/>
         </scene>
         <!--Edit Access Page-->
         <scene sceneID="uKF-Ty-Lit">
             <objects>
-                <viewController storyboardIdentifier="EditAccessPage" id="8Z8-IA-aDD" customClass="EditAccessPage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditAccessPage" id="8Z8-IA-aDD" customClass="EditAccessPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eGO-5o-264">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1274,12 +1251,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83s-Sc-gT6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3037" y="-82"/>
+            <point key="canvasLocation" x="3962.5954198473282" y="-82.394366197183103"/>
         </scene>
         <!--Services Page-->
         <scene sceneID="GJG-xZ-6xk">
             <objects>
-                <viewController storyboardIdentifier="ServicesPage" id="e7R-yB-aRn" customClass="ServicesPage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ServicesPage" id="e7R-yB-aRn" customClass="ServicesPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uNg-H4-jmG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1322,8 +1299,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
+                                    <action selector="intercityButtonAction:" destination="e7R-yB-aRn" eventType="touchUpInside" id="1LO-CQ-Kom"/>
                                     <action selector="intercityButtonAction:" destination="XjR-oX-LXL" eventType="touchUpInside" id="akv-IB-Ghp"/>
-                                    <action selector="intercityButtonAction:" destination="e7R-yB-aRn" eventType="touchUpInside" id="vn4-AG-W3w"/>
                                     <action selector="rideButtonAction:" destination="XjR-oX-LXL" eventType="touchUpInside" id="EeQ-Bd-Bny"/>
                                 </connections>
                             </button>
@@ -1365,28 +1342,443 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bF1-ve-hgz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5618" y="570"/>
+            <point key="canvasLocation" x="6544.2748091603053" y="569.71830985915494"/>
         </scene>
-        <!--View Controller-->
+        <!--Account Page-->
         <scene sceneID="tc9-rS-TzQ">
             <objects>
-                <viewController id="eSP-UX-vB4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AccountPage" id="eSP-UX-vB4" customClass="AccountPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EYQ-t1-YHb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5s-8m-T78">
+                                <rect key="frame" x="16" y="103" width="221" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-fF-pTs">
+                                <rect key="frame" x="16" y="146" width="221" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbx-8U-vmn">
+                                <rect key="frame" x="16" y="250" width="361" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Settings">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="settingButton:" destination="eSP-UX-vB4" eventType="touchUpInside" id="YRz-c0-dlO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utV-p1-FTt">
+                                <rect key="frame" x="16" y="321" width="361" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Settings">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FS-yF-OeH">
+                                <rect key="frame" x="16" y="370" width="361" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Activity">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="activityPage:" destination="eSP-UX-vB4" eventType="touchUpInside" id="38c-DA-vhz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nx8-SB-zfA">
+                                <rect key="frame" x="16" y="430" width="361" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Legal">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="legalButton:" destination="eSP-UX-vB4" eventType="touchUpInside" id="J4W-mQ-cU8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVp-zZ-Ik4">
+                                <rect key="frame" x="16" y="310" width="361" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Manage Uber Account">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="manageAccountPage:" destination="eSP-UX-vB4" eventType="touchUpInside" id="aaS-Ko-VD9"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings (1)" translatesAutoresizingMaskIntoConstraints="NO" id="bta-F8-2Vm">
+                                <rect key="frame" x="26" y="260" width="33" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user (1)" translatesAutoresizingMaskIntoConstraints="NO" id="5NK-RA-oeH">
+                                <rect key="frame" x="26" y="321" width="33" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="note" translatesAutoresizingMaskIntoConstraints="NO" id="JiR-ga-n8N">
+                                <rect key="frame" x="26" y="381" width="33" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exclamation" translatesAutoresizingMaskIntoConstraints="NO" id="9OT-F3-zmw">
+                                <rect key="frame" x="26" y="441" width="33" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RDb-d6-gNA">
+                                <rect key="frame" x="269" y="103" width="108" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fn3-uJ-3CU">
+                                <rect key="frame" x="298" y="155" width="52" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="highlighter" catalog="system"/>
+                                <connections>
+                                    <action selector="accountButtonAction:" destination="eSP-UX-vB4" eventType="touchUpInside" id="GFU-g9-2Nj"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="JXh-i9-feV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="2Kv-JN-VZz"/>
+                    <connections>
+                        <outlet property="firstNameLabel" destination="X5s-8m-T78" id="j0R-as-Tke"/>
+                        <outlet property="imagePicker" destination="RDb-d6-gNA" id="AXc-to-aCx"/>
+                        <outlet property="lastNameLabel" destination="gdd-fF-pTs" id="Twa-Qf-5Q0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kdl-iL-Dm2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5553" y="1908"/>
+            <point key="canvasLocation" x="5684.7328244274804" y="1907.7464788732395"/>
+        </scene>
+        <!--Account Details-->
+        <scene sceneID="2NT-cG-ca5">
+            <objects>
+                <viewController storyboardIdentifier="AccountDetails" id="lOD-Zk-hpn" customClass="AccountDetails" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fMJ-5B-81U">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Account Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0z-4h-pGt">
+                                <rect key="frame" x="16" y="59" width="361" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbg-De-Vmr">
+                                <rect key="frame" x="16" y="279" width="361" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVj-89-MaM">
+                                <rect key="frame" x="16" y="338" width="361" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z7-yh-sLh">
+                                <rect key="frame" x="16" y="527" width="361" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Thx-DA-H3c">
+                                <rect key="frame" x="16" y="379" width="361" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HZq-cb-PoG">
+                                <rect key="frame" x="17" y="568" width="361" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Oi-wR-aru">
+                                <rect key="frame" x="16" y="432" width="361" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Di3-Xu-Fsh">
+                                <rect key="frame" x="16" y="473" width="361" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1t-Dr-Sw5">
+                                <rect key="frame" x="17" y="623" width="361" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSh-WC-3Fx">
+                                <rect key="frame" x="18" y="664" width="361" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLa-5S-qc2">
+                                <rect key="frame" x="18" y="707" width="359" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Done">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.83921568627450982" green="0.83921568627450982" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="doneButtonAction:" destination="lOD-Zk-hpn" eventType="touchUpInside" id="cM2-Mo-ZlH"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oer-CC-h41">
+                                <rect key="frame" x="18" y="126" width="134" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wm-nI-ywY">
+                                <rect key="frame" x="183" y="219" width="52" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="highlighter" catalog="system"/>
+                                <connections>
+                                    <action selector="addImageButtonAction:" destination="lOD-Zk-hpn" eventType="touchUpInside" id="TMi-64-jW8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nne-3P-sQn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="doneButton" destination="YLa-5S-qc2" id="3Im-Da-3WW"/>
+                        <outlet property="emailTextField" destination="cSh-WC-3Fx" id="6cy-ty-Aij"/>
+                        <outlet property="firstNameTextFirld" destination="Thx-DA-H3c" id="MQA-vB-vvh"/>
+                        <outlet property="imagePicker" destination="Oer-CC-h41" id="3cE-NE-cPW"/>
+                        <outlet property="lastNameTextField" destination="Di3-Xu-Fsh" id="z2j-OC-RgP"/>
+                        <outlet property="numberTextField" destination="HZq-cb-PoG" id="TAj-YY-wqc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKe-Cl-nlu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6542.7480916030536" y="1907.7464788732395"/>
+        </scene>
+        <!--Setting Page-->
+        <scene sceneID="f2k-n6-9yH">
+            <objects>
+                <viewController storyboardIdentifier="SettingPage" id="zOq-qW-AC3" customClass="SettingPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2gR-YH-Hvk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ar-tY-CyO">
+                                <rect key="frame" x="16" y="106" width="361" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNk-ox-QTd">
+                                <rect key="frame" x="16" y="153" width="361" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0h-tW-Umm">
+                                <rect key="frame" x="16" y="267" width="361" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Privacy">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="privicyButtonAction:" destination="zOq-qW-AC3" eventType="touchUpInside" id="BCE-v4-wxM"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="0Wc-KZ-RSQ">
+                                <rect key="frame" x="16" y="292" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Manage the data you share with us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fa9-zR-DP2">
+                                <rect key="frame" x="80" y="308" width="297" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-h2-axS">
+                                <rect key="frame" x="16" y="368" width="361" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Security">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="securityButtonAction:" destination="zOq-qW-AC3" eventType="touchUpInside" id="yXw-TK-dhb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Control your account security with2-step verification" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sly-mx-uFc">
+                                <rect key="frame" x="80" y="415" width="297" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="secure" translatesAutoresizingMaskIntoConstraints="NO" id="se7-Ng-LfV">
+                                <rect key="frame" x="16" y="411" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fLt-F3-ekK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameLabel" destination="2ar-tY-CyO" id="HDi-ua-rHS"/>
+                        <outlet property="lastNameLabel" destination="QNk-ox-QTd" id="4Ej-1Q-lmO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U64-70-8Te" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7307.6335877862593" y="1907.7464788732395"/>
+        </scene>
+        <!--Privacy Page-->
+        <scene sceneID="yh6-I8-6zo">
+            <objects>
+                <viewController storyboardIdentifier="PrivacyPage" id="Tif-c8-GSW" customClass="PrivacyPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C3T-u6-HaU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Privacy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S23-2K-z1F">
+                                <rect key="frame" x="16" y="102" width="361" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ma-IS-jeE">
+                                <rect key="frame" x="16" y="59" width="47" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="Tif-c8-GSW" eventType="touchUpInside" id="co0-Nr-yEx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEq-vb-lkZ">
+                                <rect key="frame" x="16" y="196" width="361" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Privacy Center">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="secure (1)" translatesAutoresizingMaskIntoConstraints="NO" id="A9W-vS-XTg">
+                                <rect key="frame" x="19" y="224" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take Control of your privacy and lern how we protect it." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEd-TF-xCk">
+                                <rect key="frame" x="71" y="244" width="306" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Pw-wa-j8h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I56-9L-Eed" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7959.5419847328239" y="1907.7464788732395"/>
+        </scene>
+        <!--Security Page-->
+        <scene sceneID="MDY-uB-smp">
+            <objects>
+                <viewController storyboardIdentifier="SecurityPage" id="DJ0-Pw-j2U" customClass="SecurityPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dJ7-kC-U5D">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mi-sD-xpJ">
+                                <rect key="frame" x="16" y="59" width="47" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="Tif-c8-GSW" eventType="touchUpInside" id="8z6-CX-F4O"/>
+                                    <action selector="backButtonAction:" destination="DJ0-Pw-j2U" eventType="touchUpInside" id="ZEf-Gw-wwP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Security" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mai-ng-DAe">
+                                <rect key="frame" x="16" y="107" width="361" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2- Step Verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a11-JZ-djH">
+                                <rect key="frame" x="16" y="185" width="361" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When this is on, you will be asled for your password and verification code when you sign in to your account." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tl5-V6-DTp">
+                                <rect key="frame" x="16" y="214" width="361" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VdR-Lq-Kw1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bkj-3w-D2W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8635.8778625954201" y="1907.7464788732395"/>
         </scene>
         <!--Activity Page-->
         <scene sceneID="7uv-w4-oXt">
             <objects>
-                <viewController storyboardIdentifier="ActivityPage" id="EFK-XJ-Mcd" customClass="ActivityPage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ActivityPage" id="EFK-XJ-Mcd" customClass="ActivityPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kJa-Q0-OZQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1414,7 +1806,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="viewOlderActivityButtonAction:" destination="EFK-XJ-Mcd" eventType="touchUpInside" id="Jxj-ro-Yci"/>
+                                    <action selector="olderActivityButtonAction:" destination="EFK-XJ-Mcd" eventType="touchUpInside" id="MXs-81-4z4"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="JwN-VC-w9N">
@@ -1429,12 +1821,143 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Lh-Kp-vKw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5617.5572519083971" y="1224.6478873239437"/>
+            <point key="canvasLocation" x="5686" y="1225"/>
+        </scene>
+        <!--Older Activity-->
+        <scene sceneID="FMg-fW-E3L">
+            <objects>
+                <viewController storyboardIdentifier="OlderActivity" id="iZl-qw-qhN" customClass="OlderActivity" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1fP-PI-roq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sId-3U-Zdl">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEG-Py-M2d">
+                                        <rect key="frame" x="8" y="8" width="77" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="xmark" catalog="system"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="close"/>
+                                        <connections>
+                                            <action selector="closeButtonAction:" destination="iZl-qw-qhN" eventType="touchUpInside" id="vEQ-XF-iS8"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your trips" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gus-hp-FlM">
+                                        <rect key="frame" x="16" y="78" width="361" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HU7-dl-nAc">
+                                        <rect key="frame" x="299" y="16" width="86" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" image="chevron.down" catalog="system" title="Past">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="psatButtonAction:" destination="iZl-qw-qhN" eventType="touchUpInside" id="eDC-5F-uGR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3ed-Vv-Xfy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sId-3U-Zdl" firstAttribute="leading" secondItem="3ed-Vv-Xfy" secondAttribute="leading" id="34L-Pm-pW4"/>
+                            <constraint firstItem="sId-3U-Zdl" firstAttribute="trailing" secondItem="3ed-Vv-Xfy" secondAttribute="trailing" id="QeK-C0-lwz"/>
+                            <constraint firstItem="sId-3U-Zdl" firstAttribute="top" secondItem="3ed-Vv-Xfy" secondAttribute="top" id="WGB-ce-1Yq"/>
+                            <constraint firstAttribute="bottom" secondItem="sId-3U-Zdl" secondAttribute="bottom" id="sua-Ik-ygj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pastButton" destination="HU7-dl-nAc" id="SxG-DU-dHC"/>
+                        <outlet property="popView" destination="sId-3U-Zdl" id="VrF-34-i6O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qV0-o0-A0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6544" y="1225"/>
+        </scene>
+        <!--Past Trip Page-->
+        <scene sceneID="fDd-3s-iwL">
+            <objects>
+                <viewController storyboardIdentifier="PastTripPage" id="Noe-vF-PuR" customClass="PastTripPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iq5-Zz-lbH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You haven't taken any trips yet." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nv-9d-Mfx">
+                                <rect key="frame" x="16" y="295" width="361" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="B0l-7G-imC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLd-Oy-tg0">
+                                <rect key="frame" x="16" y="718" width="361" height="55"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="qJN-yU-bSL"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get started">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getStartedButtonAction:" destination="Noe-vF-PuR" eventType="touchUpInside" id="bpt-3i-PB3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nS-hB-aaq">
+                                <rect key="frame" x="16" y="59" width="77" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="Mv8-za-aVY"/>
+                                    <constraint firstAttribute="height" constant="50" id="shi-X8-qXk"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="close"/>
+                                <connections>
+                                    <action selector="closeButtonAction:" destination="Noe-vF-PuR" eventType="touchUpInside" id="axx-M5-hP1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V1w-ty-2Uh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8nv-9d-Mfx" firstAttribute="leading" secondItem="V1w-ty-2Uh" secondAttribute="leading" constant="16" id="56z-EW-DZR"/>
+                            <constraint firstItem="eLd-Oy-tg0" firstAttribute="leading" secondItem="V1w-ty-2Uh" secondAttribute="leading" constant="16" id="5vY-ag-yzD"/>
+                            <constraint firstItem="V1w-ty-2Uh" firstAttribute="trailing" secondItem="eLd-Oy-tg0" secondAttribute="trailing" constant="16" id="GUn-dE-bYN"/>
+                            <constraint firstItem="V1w-ty-2Uh" firstAttribute="bottom" secondItem="eLd-Oy-tg0" secondAttribute="bottom" constant="45" id="dUF-8i-WEg"/>
+                            <constraint firstItem="8nv-9d-Mfx" firstAttribute="top" secondItem="V1w-ty-2Uh" secondAttribute="top" constant="236" id="led-Qp-xby"/>
+                            <constraint firstItem="4nS-hB-aaq" firstAttribute="leading" secondItem="V1w-ty-2Uh" secondAttribute="leading" constant="16" id="mWa-IF-C2D"/>
+                            <constraint firstItem="4nS-hB-aaq" firstAttribute="top" secondItem="V1w-ty-2Uh" secondAttribute="top" id="pKf-6J-DJs"/>
+                            <constraint firstItem="V1w-ty-2Uh" firstAttribute="trailing" secondItem="8nv-9d-Mfx" secondAttribute="trailing" constant="16" id="xXZ-vL-c2F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="getStartedButton" destination="eLd-Oy-tg0" id="MBO-qW-hCk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9aa-Ww-4XP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7308" y="1225"/>
         </scene>
         <!--Home Page-->
         <scene sceneID="qHf-Lz-FOA">
             <objects>
-                <viewController storyboardIdentifier="HomePage" id="XjR-oX-LXL" customClass="HomePage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomePage" id="XjR-oX-LXL" customClass="HomePage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rD1-wM-acG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1517,7 +2040,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCell" reuseIdentifier="cell" id="GyQ-7S-sPa" customClass="CollectionViewCell" customModule="UberCabesProject" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCell" reuseIdentifier="cell" id="GyQ-7S-sPa" customClass="CollectionViewCell" customModule="UberCabsApplication" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="-0.66666666666666663" width="344" height="175"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Qte-Qp-VK8">
@@ -1575,22 +2098,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgD-RR-90r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5618" y="-82"/>
+            <point key="canvasLocation" x="6544.2748091603053" y="-82.394366197183103"/>
         </scene>
         <!--Intercity Page-->
         <scene sceneID="vYg-vT-oW2">
             <objects>
-                <viewController storyboardIdentifier="IntercityPage" id="ir2-Cj-dJy" customClass="IntercityPage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntercityPage" id="ir2-Cj-dJy" customClass="IntercityPage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V5D-Fj-2w0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2bb2ac75-8182-461e-a8da-dcc65026a93b" translatesAutoresizingMaskIntoConstraints="NO" id="Bn6-Gb-Q1S">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="350"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="350" id="MB8-B5-RxE"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="uber Intercity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4T-Do-3hk">
                                 <rect key="frame" x="16" y="393" width="361" height="55"/>
                                 <constraints>
@@ -1651,18 +2168,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToZ-TF-pul">
-                                <rect key="frame" x="16" y="737" width="361" height="56"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Get started">
-                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="getStartedButtonAction:" destination="ir2-Cj-dJy" eventType="touchUpInside" id="Gso-z5-qef"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofz-Ip-5i1">
                                 <rect key="frame" x="20" y="59" width="49" height="43"/>
                                 <constraints>
@@ -1672,8 +2177,24 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2bb2ac75-8182-461e-a8da-dcc65026a93b" translatesAutoresizingMaskIntoConstraints="NO" id="Bn6-Gb-Q1S">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="MB8-B5-RxE"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToZ-TF-pul">
+                                <rect key="frame" x="16" y="705" width="361" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get started">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="20"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="backButtonAction:" destination="ir2-Cj-dJy" eventType="touchUpInside" id="Wp6-no-45H"/>
+                                    <action selector="getStartedButtonAction:" destination="ir2-Cj-dJy" eventType="touchUpInside" id="Gso-z5-qef"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1688,15 +2209,11 @@
                             <constraint firstItem="Bn6-Gb-Q1S" firstAttribute="leading" secondItem="lVV-23-2Qo" secondAttribute="leading" id="BsV-x1-YyK"/>
                             <constraint firstItem="bUl-y2-89Z" firstAttribute="leading" secondItem="lVV-23-2Qo" secondAttribute="leading" constant="26" id="CCW-UU-vqO"/>
                             <constraint firstItem="Ip6-8t-PZj" firstAttribute="top" secondItem="J4T-Do-3hk" secondAttribute="bottom" constant="87" id="FRC-nV-NCN"/>
-                            <constraint firstItem="ToZ-TF-pul" firstAttribute="leading" secondItem="lVV-23-2Qo" secondAttribute="leading" constant="16" id="KVA-Bn-6h8"/>
-                            <constraint firstItem="ToZ-TF-pul" firstAttribute="top" secondItem="lNt-Oa-VtN" secondAttribute="bottom" constant="61" id="LQS-O7-fa9"/>
-                            <constraint firstItem="lVV-23-2Qo" firstAttribute="trailing" secondItem="ToZ-TF-pul" secondAttribute="trailing" constant="16" id="PK7-HZ-zq6"/>
                             <constraint firstItem="lVV-23-2Qo" firstAttribute="trailing" secondItem="EXS-Lh-i8r" secondAttribute="trailing" constant="16" id="Q1T-Tv-0kP"/>
                             <constraint firstItem="eGj-EM-9b8" firstAttribute="top" secondItem="J4T-Do-3hk" secondAttribute="bottom" constant="87" id="SLm-uR-pZ0"/>
                             <constraint firstItem="EXS-Lh-i8r" firstAttribute="top" secondItem="Ip6-8t-PZj" secondAttribute="bottom" constant="24" id="TCv-ZN-wII"/>
                             <constraint firstItem="lNt-Oa-VtN" firstAttribute="top" secondItem="bUl-y2-89Z" secondAttribute="bottom" constant="24" id="bZk-Ex-4Bc"/>
                             <constraint firstItem="J4T-Do-3hk" firstAttribute="top" secondItem="Bn6-Gb-Q1S" secondAttribute="bottom" constant="43" id="cg5-mU-DtI"/>
-                            <constraint firstItem="lVV-23-2Qo" firstAttribute="bottom" secondItem="ToZ-TF-pul" secondAttribute="bottom" constant="25" id="dWM-Pw-MW9"/>
                             <constraint firstItem="Ofz-Ip-5i1" firstAttribute="leading" secondItem="lVV-23-2Qo" secondAttribute="leading" constant="20" id="gde-QT-Pna"/>
                             <constraint firstItem="Bn6-Gb-Q1S" firstAttribute="top" secondItem="V5D-Fj-2w0" secondAttribute="top" id="kEX-bg-Reg"/>
                             <constraint firstItem="lVV-23-2Qo" firstAttribute="trailing" secondItem="J4T-Do-3hk" secondAttribute="trailing" constant="16" id="noK-zO-ToX"/>
@@ -1712,45 +2229,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNg-ou-Dgq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6382" y="208"/>
+            <point key="canvasLocation" x="7307.6335877862593" y="207.74647887323945"/>
         </scene>
-        <!--Ride Page-->
+        <!--View Controller3-->
         <scene sceneID="9Bk-Lo-Kjc">
             <objects>
-                <viewController storyboardIdentifier="RidePage" id="ZYj-Ht-zQ7" customClass="RidePage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController3" id="ZYj-Ht-zQ7" customClass="ViewController3" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dsx-6E-4rL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KUy-71-Z7W">
-                                <rect key="frame" x="0.0" y="197" width="393" height="655"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <standardMapConfiguration key="preferredConfiguration" showsTraffic="YES"/>
-                            </mapView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e8W-D1-rLX">
-                                <rect key="frame" x="16" y="103" width="361" height="44"/>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ant-2O-CBe">
+                                <rect key="frame" x="16" y="79" width="361" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="ZYj-Ht-zQ7" id="rXf-FJ-6FV"/>
+                                    <outlet property="delegate" destination="ZYj-Ht-zQ7" id="RZ4-O3-OPH"/>
                                 </connections>
                             </searchBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KUy-71-Z7W">
+                                <rect key="frame" x="0.0" y="123" width="393" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <standardMapConfiguration key="preferredConfiguration" showsTraffic="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ZYj-Ht-zQ7" id="0Zv-78-N64"/>
+                                </connections>
+                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nz3-sT-PN7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="mappView" destination="KUy-71-Z7W" id="Dmo-a7-Tjh"/>
+                        <outlet property="mappView" destination="KUy-71-Z7W" id="VPg-62-aqp"/>
+                        <outlet property="searchBar" destination="Ant-2O-CBe" id="Dky-6V-DCb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYQ-sn-vUg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7121" y="208"/>
+            <point key="canvasLocation" x="8046.5648854961828" y="207.74647887323945"/>
         </scene>
         <!--Tab Bar-->
         <scene sceneID="6Rf-6m-1cM">
             <objects>
-                <tabBarController storyboardIdentifier="TabBar" id="zST-nA-ggV" customClass="TabBar" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBar" id="zST-nA-ggV" customClass="TabBar" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2L3-kj-dje">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1767,12 +2288,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaL-ox-mZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3656" y="702"/>
+            <point key="canvasLocation" x="3963" y="578"/>
         </scene>
         <!--Google Page-->
         <scene sceneID="aB7-Aj-3f9">
             <objects>
-                <viewController storyboardIdentifier="GooglePage" id="gka-h9-s5g" customClass="GooglePage" customModule="UberCabesProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GooglePage" id="gka-h9-s5g" customClass="GooglePage" customModule="UberCabsApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k9e-Sd-Js2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1850,7 +2371,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="accountCollectionView" reuseIdentifier="cell" id="S5k-Hl-blu" customClass="accountCollectionView" customModule="UberCabesProject" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="accountCollectionView" reuseIdentifier="cell" id="S5k-Hl-blu" customClass="accountCollectionView" customModule="UberCabsApplication" customModuleProvider="target">
                                                 <rect key="frame" x="1" y="0.0" width="375" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Q9G-Fg-3FR">
@@ -1971,7 +2492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaX-i4-4d6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381" y="571"/>
+            <point key="canvasLocation" x="3307.6335877862593" y="570.42253521126759"/>
         </scene>
         <!--Home-->
         <scene sceneID="37I-4N-w1h">
@@ -1989,7 +2510,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jli-Ir-Qm3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4760" y="-82"/>
+            <point key="canvasLocation" x="5686.259541984733" y="-82.394366197183103"/>
         </scene>
         <!--Services-->
         <scene sceneID="rR7-0l-Z6w">
@@ -2007,7 +2528,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVd-Cj-KN2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4760" y="570"/>
+            <point key="canvasLocation" x="5686.259541984733" y="569.71830985915494"/>
         </scene>
         <!--Activity-->
         <scene sceneID="AsO-pS-lfq">
@@ -2030,11 +2551,10 @@
         <!--Account-->
         <scene sceneID="V8P-Ax-ZAd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ls4-6P-cYW" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Ls4-6P-cYW" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Account" image="user (1)" id="RkP-2m-BMZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="E9a-1M-m21">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2046,6 +2566,23 @@
             </objects>
             <point key="canvasLocation" x="4760" y="1908"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TeN-Zo-o8G">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="zxi-ta-JRv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RxR-M2-dE0">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8Fl-J6-tkY" kind="relationship" relationship="rootViewController" id="OZV-fB-ZG0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D45-GB-0I0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.6717557251909" y="-34.507042253521128"/>
+        </scene>
     </scenes>
     <resources>
         <image name="256-2568681_uber-modern-simple-logo-design-2019-hd-png-removebg-preview" width="500" height="280"/>
@@ -2054,25 +2591,36 @@
         <image name="arrow.backward" catalog="system" width="128" height="95"/>
         <image name="arrow.left" catalog="system" width="128" height="95"/>
         <image name="arrow.right" catalog="system" width="128" height="95"/>
+        <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
         <image name="car" width="512" height="512"/>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <image name="close" width="24" height="24"/>
         <image name="email" width="512" height="512"/>
+        <image name="exclamation" width="512" height="512"/>
         <image name="facebook" width="512" height="512"/>
         <image name="facebook (1)" width="512" height="512"/>
+        <image name="highlighter" catalog="system" width="128" height="120"/>
         <image name="house-black-silhouette-without-door" width="24" height="24"/>
         <image name="images-removebg-preview (8)" width="277" height="182"/>
         <image name="images-removebg-preview (9)" width="259" height="194"/>
         <image name="list.bullet.clipboard.fill" catalog="system" width="103" height="128"/>
+        <image name="lock" width="512" height="512"/>
         <image name="menu" width="24" height="24"/>
         <image name="message" width="512" height="512"/>
+        <image name="note" width="512" height="512"/>
         <image name="opp arrow" width="225" height="225"/>
         <image name="road-with-broken-line" width="512" height="512"/>
         <image name="round uber logo" width="225" height="225"/>
         <image name="search" width="512" height="512"/>
+        <image name="secure" width="512" height="512"/>
+        <image name="secure (1)" width="512" height="512"/>
+        <image name="settings (1)" width="512" height="512"/>
         <image name="shopping" width="512" height="512"/>
         <image name="time" width="512" height="512"/>
         <image name="uberapp (1)" width="315" height="393"/>
         <image name="uberlogo" width="225" height="225"/>
         <image name="user (1)" width="24" height="24"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

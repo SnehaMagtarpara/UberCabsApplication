@@ -14,10 +14,15 @@ class ViewController: UIViewController {
        
     }
 
-    @IBAction func getStartButtonAction(_ sender: Any) {
-        let navigation = storyboard?.instantiateViewController(identifier: "LogInPage") as! LogInPage
-        navigationController?.pushViewController(navigation, animated: true)
+  
+    @IBAction func getStartedbuttonAction(_ sender: Any) {
+        navigation()
     }
+    func navigation()
+    {
+    let navigation = storyboard?.instantiateViewController(withIdentifier: "LogInPage") as! LogInPage
+        navigationController?.pushViewController(navigation, animated: true)
+        }
     
 }
 

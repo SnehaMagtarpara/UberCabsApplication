@@ -11,11 +11,17 @@ import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
 
+class MyEmail {
+    static var share = MyEmail()
+    var email : String?
+    
+}
+
 class EmailPage: UIViewController {
     
     var ref: DatabaseReference!
     var reference : Firestore!
-
+    
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
@@ -37,19 +43,42 @@ class EmailPage: UIViewController {
     }
     
     @IBAction func nextButtonAction(_ sender: Any) {
-        emailDataSave()
-        let navigation = storyboard?.instantiateViewController(identifier:"ContinuePasscodePage") as! ContinuePasscodePage
-        navigationController?.popViewController(animated: true)
-    }
-    func emailDataSave()
-    {
-        Auth.auth().createUser(withEmail:emilaAddressTextField.text!, password:passwordTextField.text!){ [self]authDataResult,error in
-            print(authDataResult,error?.localizedDescription)
-            
-            self.reference.collection("User").document((authDataResult?.user.uid)!).setData(["Email Addres":emilaAddressTextField.text!])
+        //        emailDataSave()
+        if emilaAddressTextField.text == ""
+        {
+            showAlertMail()
         }
-        
-        
+        else if passwordTextField.text == ""
+        {
+            showAlertPassword()
+        }
+        else{
+            let navigation = storyboard?.instantiateViewController(identifier:"TabBar") as! TabBar
+            MyEmail.share.email = emilaAddressTextField.text
+            navigationController?.pushViewController(navigation, animated: true)
+        }
     }
     
+    
+    func showAlertMail()
+    {
+        let alert = UIAlertController(title: "Enter Your E-mail", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
+        
+    }
+    func showAlertPassword()
+    {
+        let alert = UIAlertController(title: "Enter Your Password", message: title, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title:"Ok", style: .cancel))
+        present(alert,animated:true,completion: nil)
+        
+    }
+    //    func emailDataSave()
+    //    {
+    //        Auth.auth().createUser(withEmail:emilaAddressTextField.text!, password:passwordTextField.text!){ [self]authDataResult,error in
+    //            print(authDataResult,error?.localizedDescription)
+    //
+    //            self.reference.collection("User").document((authDataResult?.user.uid)!).setData(["Email Addres":emilaAddressTextField.text!])
+    //        }
 }

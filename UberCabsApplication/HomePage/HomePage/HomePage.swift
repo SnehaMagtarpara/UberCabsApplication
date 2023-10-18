@@ -9,21 +9,12 @@ import UIKit
 
 class HomePage: UIViewController {
     
-    
-    
-    @IBOutlet weak var cv: UICollectionView!
-    
     var imgArr = [UIImage(named:"1"),UIImage(named:"2"),UIImage(named:"3")]
     
+    @IBOutlet weak var cv: UICollectionView!
     @IBOutlet weak var intercityButton: UIButton!
     @IBOutlet weak var rideButton: UIButton!
-    
     @IBOutlet weak var promoLabel: UILabel!
-    
-    
-   
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +31,7 @@ class HomePage: UIViewController {
     }
     
     @IBAction func rideButtonAction(_ sender: UIButton) {
-        let navigation = storyboard?.instantiateViewController(identifier:"RidePage") as! RidePage
+        let navigation = storyboard?.instantiateViewController(identifier:"ViewController3") as! ViewController3
         navigationController?.pushViewController(navigation, animated: true)
     }
     
@@ -65,7 +56,23 @@ extension HomePage:UICollectionViewDelegate,UICollectionViewDataSource,UICollect
         return CGSize(width: 344, height: 175)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-         
+        if indexPath.row == 0
+        {
+            
+        }
+        else if indexPath.row == 1
+        {
+            navigation()
+        }
+        else
+        {
+            navigation()
+        }
+    }
+    func navigation()
+    {
+        let navigation = storyboard?.instantiateViewController(identifier: "ViewController3") as! ViewController3
+        navigationController?.pushViewController(navigation, animated: true)
     }
     
 }

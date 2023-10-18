@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61B99F32A82188D00640A72 /* OlderActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B99F22A82188D00640A72 /* OlderActivity.swift */; };
+		A61B99FA2A82238000640A72 /* PastTripPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B99F92A82238000640A72 /* PastTripPage.swift */; };
+		A61B99FC2A82268D00640A72 /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B99FB2A82268D00640A72 /* AccountPage.swift */; };
+		A61B99FE2A82313B00640A72 /* RidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B99FD2A82313B00640A72 /* RidePage.swift */; };
+		A66C893D2AA0858B0018306C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A66C893C2AA0858B0018306C /* GoogleService-Info.plist */; };
+		A66F05A32AB068DC00D9958F /* PrivacyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F05A22AB068DC00D9958F /* PrivacyPage.swift */; };
+		A66F05A52AB06A5F00D9958F /* SecurityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F05A42AB06A5F00D9958F /* SecurityPage.swift */; };
+		A6A2D50D2AA5C5D8000D11CC /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A2D50C2AA5C5D8000D11CC /* AccountDetails.swift */; };
+		A6A5F3AB2A8239DE0035AA2B /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A5F3AA2A8239DE0035AA2B /* ViewController3.swift */; };
+		A6AD39FF2AAC7712000E4EBE /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AD39FE2AAC7712000E4EBE /* SettingPage.swift */; };
 		A6F67FDB2A80F7620063722E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FDA2A80F7620063722E /* AppDelegate.swift */; };
 		A6F67FDD2A80F7620063722E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FDC2A80F7620063722E /* SceneDelegate.swift */; };
 		A6F67FDF2A80F7620063722E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F67FDE2A80F7620063722E /* ViewController.swift */; };
@@ -28,7 +38,6 @@
 		A6F680152A80F8C40063722E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800D2A80F8C10063722E /* CollectionViewCell.swift */; };
 		A6F680162A80F8C40063722E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800E2A80F8C10063722E /* HomePage.swift */; };
 		A6F680172A80F8C40063722E /* IntercityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6800F2A80F8C10063722E /* IntercityPage.swift */; };
-		A6F680182A80F8C40063722E /* RidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F680102A80F8C10063722E /* RidePage.swift */; };
 		A6F680192A80F8C40063722E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F680112A80F8C20063722E /* TabBar.swift */; };
 		A6F6801A2A80F8C40063722E /* ActivityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F680132A80F8C40063722E /* ActivityPage.swift */; };
 		F66305932915E7B5320C118C /* Pods_UberCabsApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B3F700996400D5DB3FC955 /* Pods_UberCabsApplication.framework */; };
@@ -37,6 +46,16 @@
 /* Begin PBXFileReference section */
 		07B3F700996400D5DB3FC955 /* Pods_UberCabsApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberCabsApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36885FA9FE96B2685BFFBAF9 /* Pods-UberCabsApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCabsApplication.release.xcconfig"; path = "Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication.release.xcconfig"; sourceTree = "<group>"; };
+		A61B99F22A82188D00640A72 /* OlderActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlderActivity.swift; sourceTree = "<group>"; };
+		A61B99F92A82238000640A72 /* PastTripPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTripPage.swift; sourceTree = "<group>"; };
+		A61B99FB2A82268D00640A72 /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		A61B99FD2A82313B00640A72 /* RidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidePage.swift; sourceTree = "<group>"; };
+		A66C893C2AA0858B0018306C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A66F05A22AB068DC00D9958F /* PrivacyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPage.swift; sourceTree = "<group>"; };
+		A66F05A42AB06A5F00D9958F /* SecurityPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityPage.swift; sourceTree = "<group>"; };
+		A6A2D50C2AA5C5D8000D11CC /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
+		A6A5F3AA2A8239DE0035AA2B /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		A6AD39FE2AAC7712000E4EBE /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
 		A6F67FD72A80F7620063722E /* UberCabsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberCabsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F67FDA2A80F7620063722E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F67FDC2A80F7620063722E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +79,6 @@
 		A6F6800D2A80F8C10063722E /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A6F6800E2A80F8C10063722E /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		A6F6800F2A80F8C10063722E /* IntercityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntercityPage.swift; sourceTree = "<group>"; };
-		A6F680102A80F8C10063722E /* RidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidePage.swift; sourceTree = "<group>"; };
 		A6F680112A80F8C20063722E /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A6F680132A80F8C40063722E /* ActivityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityPage.swift; sourceTree = "<group>"; };
 		F94BDA3FDD12F6C9FCE2F5F5 /* Pods-UberCabsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberCabsApplication.debug.xcconfig"; path = "Target Support Files/Pods-UberCabsApplication/Pods-UberCabsApplication.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				A6F67FDA2A80F7620063722E /* AppDelegate.swift */,
+				A6AD39FE2AAC7712000E4EBE /* SettingPage.swift */,
+				A6A2D50C2AA5C5D8000D11CC /* AccountDetails.swift */,
+				A6A5F3AA2A8239DE0035AA2B /* ViewController3.swift */,
 				A6F67FDC2A80F7620063722E /* SceneDelegate.swift */,
 				A6F67FDE2A80F7620063722E /* ViewController.swift */,
 				A6F67FF02A80F8AF0063722E /* ContinueApple */,
@@ -124,10 +145,18 @@
 				A6F67FF52A80F8B10063722E /* ContinueFacebook */,
 				A6F67FF92A80F8B50063722E /* ContinueGoogle */,
 				A6F67FFC2A80F8B60063722E /* ContinueMobile */,
+				A6F6800B2A80F8C10063722E /* HomePage */,
+				A6F680122A80F8C40063722E /* ActivityPage */,
+				A6F680092A80F8C00063722E /* ServicePage */,
 				A6F67FF82A80F8B30063722E /* LogInPage.swift */,
+				A61B99FB2A82268D00640A72 /* AccountPage.swift */,
 				A6F67FE02A80F7620063722E /* Main.storyboard */,
+				A66F05A42AB06A5F00D9958F /* SecurityPage.swift */,
+				A66F05A22AB068DC00D9958F /* PrivacyPage.swift */,
+				A61B99FD2A82313B00640A72 /* RidePage.swift */,
 				A6F67FE32A80F7630063722E /* Assets.xcassets */,
 				A6F67FE52A80F7630063722E /* LaunchScreen.storyboard */,
+				A66C893C2AA0858B0018306C /* GoogleService-Info.plist */,
 				A6F67FE82A80F7630063722E /* Info.plist */,
 			);
 			path = UberCabsApplication;
@@ -173,9 +202,6 @@
 		A6F67FFC2A80F8B60063722E /* ContinueMobile */ = {
 			isa = PBXGroup;
 			children = (
-				A6F680122A80F8C40063722E /* ActivityPage */,
-				A6F6800B2A80F8C10063722E /* HomePage */,
-				A6F680092A80F8C00063722E /* ServicePage */,
 				A6F680112A80F8C20063722E /* TabBar.swift */,
 				A6F67FFD2A80F8B60063722E /* InformationPage.swift */,
 			);
@@ -195,7 +221,6 @@
 			children = (
 				A6F6800C2A80F8C10063722E /* HomePage */,
 				A6F6800F2A80F8C10063722E /* IntercityPage.swift */,
-				A6F680102A80F8C10063722E /* RidePage.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -213,6 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				A6F680132A80F8C40063722E /* ActivityPage.swift */,
+				A61B99F22A82188D00640A72 /* OlderActivity.swift */,
+				A61B99F92A82238000640A72 /* PastTripPage.swift */,
 			);
 			path = ActivityPage;
 			sourceTree = "<group>";
@@ -278,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F67FE72A80F7630063722E /* LaunchScreen.storyboard in Resources */,
+				A66C893D2AA0858B0018306C /* GoogleService-Info.plist in Resources */,
 				A6F67FE42A80F7630063722E /* Assets.xcassets in Resources */,
 				A6F67FE22A80F7620063722E /* Main.storyboard in Resources */,
 			);
@@ -332,21 +360,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A5F3AB2A8239DE0035AA2B /* ViewController3.swift in Sources */,
 				A6F67FDF2A80F7620063722E /* ViewController.swift in Sources */,
 				A6F67FDB2A80F7620063722E /* AppDelegate.swift in Sources */,
+				A66F05A32AB068DC00D9958F /* PrivacyPage.swift in Sources */,
 				A6F6801A2A80F8C40063722E /* ActivityPage.swift in Sources */,
 				A6F67FDD2A80F7620063722E /* SceneDelegate.swift in Sources */,
 				A6F680032A80F8B60063722E /* ContinueWithFacebook.swift in Sources */,
+				A61B99FA2A82238000640A72 /* PastTripPage.swift in Sources */,
 				A6F680162A80F8C40063722E /* HomePage.swift in Sources */,
 				A6F680012A80F8B60063722E /* ContinuePasscodePage.swift in Sources */,
 				A6F680052A80F8B60063722E /* LogInPage.swift in Sources */,
+				A6A2D50D2AA5C5D8000D11CC /* AccountDetails.swift in Sources */,
 				A6F680062A80F8B60063722E /* accountCollectionView.swift in Sources */,
 				A6F680002A80F8B60063722E /* SelectPayMode.swift in Sources */,
-				A6F680182A80F8C40063722E /* RidePage.swift in Sources */,
+				A61B99F32A82188D00640A72 /* OlderActivity.swift in Sources */,
 				A6F680042A80F8B60063722E /* EditAccessPage.swift in Sources */,
+				A61B99FC2A82268D00640A72 /* AccountPage.swift in Sources */,
 				A6F680072A80F8B60063722E /* GooglePage.swift in Sources */,
 				A6F680152A80F8C40063722E /* CollectionViewCell.swift in Sources */,
+				A61B99FE2A82313B00640A72 /* RidePage.swift in Sources */,
 				A6F680022A80F8B60063722E /* ContinueWithApple.swift in Sources */,
+				A6AD39FF2AAC7712000E4EBE /* SettingPage.swift in Sources */,
+				A66F05A52AB06A5F00D9958F /* SecurityPage.swift in Sources */,
 				A6F680082A80F8B60063722E /* InformationPage.swift in Sources */,
 				A6F680172A80F8C40063722E /* IntercityPage.swift in Sources */,
 				A6F67FFF2A80F8B60063722E /* CreditCardpage.swift in Sources */,

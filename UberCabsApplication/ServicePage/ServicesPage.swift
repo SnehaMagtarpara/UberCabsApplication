@@ -23,7 +23,7 @@ class ServicesPage: UIViewController {
     
    
     @IBAction func rideButtonAction(_ sender: Any) {
-        let navigation = storyboard?.instantiateViewController(identifier:"RidePage") as! RidePage
+        let navigation = storyboard?.instantiateViewController(identifier:"ViewController3") as! ViewController3
         navigationController?.pushViewController(navigation, animated: true)
     }
     
